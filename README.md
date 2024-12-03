@@ -1,5 +1,7 @@
 # IoT Remote Control for A/C Using ESP32
 
+![ESP32 card](Interfaces/Screenshot%202024-12-02%20234148.png)
+
 ## Overview
 This project demonstrates the use of IoT technologies to control a home air conditioner (A/C) remotely using an **ESP32 microcontroller**, **MQTT protocol**, **IR communication**, and a **DHT22 sensor**. The system allows the user to control the A/C via a **Flutter mobile application**. The ESP32 collects temperature and humidity data, sends commands to the A/C via infrared (IR), and provides real-time feedback.
 
@@ -35,6 +37,9 @@ This project demonstrates the use of IoT technologies to control a home air cond
 - **MQTT**: The ESP32 subscribes to topics to receive commands (e.g., "turn_on_ac") and publishes sensor data (e.g., temperature and humidity) to the mobile app.
 - **IR Communication**: The ESP32 sends infrared signals to simulate remote control commands for the A/C unit.
 
+![MQTT Protocol](Interfaces/Screenshot%202024-12-02%20235730.png)
+
+
 ## Setup Instructions
 
 ### Hardware Setup:
@@ -68,4 +73,4 @@ This project demonstrates the use of IoT technologies to control a home air cond
 
 The following diagram shows the circuit connections for the IoT Remote Control system for A/C:
 
-![Circuit Diagram](Interfaces/Screenshot 2024-12-03 163917.png)
+![Circuit Diagram](Interfaces/Screenshot%202024-12-03%20163917.png)
